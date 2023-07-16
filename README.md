@@ -23,3 +23,5 @@ Please change values as needed.
 15. docker import ./rootfs-piCore-13.0.3.tgz
 16. docker images <= find the latest one with blank tags
 17. docker tag <IMAGE ID> fighne/pi-core-13.0.3:latest
+
+Having created the rootfs image, now you can use the rootfs system and build a running docker image 'tc' user by looking in the base directory here and using the dockerfile there.
